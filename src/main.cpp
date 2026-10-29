@@ -15,7 +15,7 @@ const char*     AP_PASS = "video1234";
 const IPAddress TDISPLAY_IP(192, 168, 4, 1);
 const uint16_t  CTRL_PORT = 4210;
 
-// --- Moteurs, dans l'ordre : avant-gauche, avant-droit, arrière-gauche, arrière-droit ---
+// --- Moteurs, dans l'ordre : avant-gauche, avant-droit, arrière-gauche, arrière-droit ---g
 //const char*   MOTOR_NAME[4] = {"AvG", "AvD", "ArG", "ArD"};
 const char*   MOTOR_NAME[4] = {"ArG", "AvD", "ArD", "AvG"};
 const uint8_t PIN_PWM[4]    = {33, 26, 25, 27};
